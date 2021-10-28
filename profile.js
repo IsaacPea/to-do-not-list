@@ -1,7 +1,7 @@
 // import functions and grab DOM elements
-const name = document.getElementById('name');
-const pass = document.getElementById('pass');
-const proButton = document.getElementById('pro-button');
+// const name = document.getElementById('name');
+// const pass = document.getElementById('pass');
+// const proButton = document.getElementById('pro-button');
 const formData = document.getElementById('form-data');
 
 // initialize global state
@@ -28,7 +28,7 @@ formData.addEventListener('submit', function(event) {
    
     saveUser(user);
 
-    window.location.replace()
+    window.location.replace();
 });
 
 
