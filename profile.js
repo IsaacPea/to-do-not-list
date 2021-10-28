@@ -27,6 +27,8 @@ formData.addEventListener('submit', function(event) {
 
    
     saveUser(user);
+
+    window.location.replace()
 });
 
 
